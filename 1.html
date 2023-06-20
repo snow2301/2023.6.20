@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title> MY WEB </title>
+    <meta charset="utf-8">
+    <style>
+      h1{
+        font-size: 45px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        margin: 0px;
+        padding: 20px;
+      }
+      a{
+        color: black;
+        text-decoration: none;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 300px 1fr 1fr
+      }
+      #grid details{
+        width: 200px;
+        margin-left: 40px;
+        margin-top: 40px;
+        padding: 20px;
+      }
+      #grid summary{
+        font-size: 20px;
+      }
+      #article{
+        border-left: 1px solid gray;
+        padding-left: 25px;
+      }
+      #side{
+        text-align: center;
+      }
+      #main{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+      }
+      #before{
+        position: absolute;
+        top: 5%;
+        left: 85%;
+      }
+      #next{
+        position: absolute;
+        top: 5%;
+        left: 92%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>백엔드 개발자</h1>
+
+    <div id="grid">
+
+      <ol>
+        <li><a href="1.html">백엔드개발자</a></li><br><br>
+        <li><a href="2.html">서버와 클라이언트</a></li><br><br>
+        <li><a href="3.html">데이터베이스</a></li><br><br>
+        <li><a href="3.html">아이피와 포트</a></li><br><br>
+        <li><a href="3.html">라이브러리와 프레임워크</a></li>
+      </ol>
+
+      <div id="article">
+        <h2>백엔드 개발자</h2>
+        <p>백엔드 개발자는 프론트엔드, 백엔드의 완전한 분리 구조를</p>
+        <p>지향하는 업무 스타일의 개발 방식으로</p>
+        <p>백엔드의 DB와 API 서버 개발을 맡으며</p>
+        <p>다시말해, 우리가 보는 화면내에서</p>
+        <p>정보가 이동하는 방법과 저장 전체를 관리한다.</p>
+        <br><br><br>
+        <p>백엔드 개발은 API 개발이 주가 된다.</p>
+        <p>프론트에서 요구하는 데이터의 포맷이나 데이터베이스 입출력 및</p>
+        <p>다양한 비즈니스 프로세스를 코드로 구현하고</p>
+        <p>이를 위한 DB를 설계하고 백엔드 프레임워크를 이용하여</p>
+        <p>앱을 구현하는 것이 주요 업무다.</p>
+        <br><br><br><br><br><br>
+
+      </div>
+
+      <div id="side">
+        <h2>프론트엔드 개발과의 차이점</h2>
+        <p>프론트엔드 개발자는 여러분이 지금 보고 있는 웹사이트,</p>
+        <p>‘웹’을 개발하는 웹 개발 영역 중 사용자가 눈으로 보는 영역을 구축하고,</p>
+        <p>기능을 구현하는 개발자이다.</p><br>
+        <p>반면, 백엔드 개발자는 여러분이 지금 보고 있는 홈페이지,</p>
+        <p>‘웹’을 개발하는 웹 개발 영역 중 사용자가 필요로 하는 정보를</p>
+        <p>저장 및 관리하고, 전달하는 영역을 담당하는 개발자입니다</p><br>
+        <p>프론트엔드는 눈에 보이는 웹의 기능을 담당하고</p>
+        <p>백엔드는 눈에 보이지 않는 정보를 관리하는 역할을 한다.</p>
+        <img id="Image1"src="https://t1.daumcdn.net/cfile/tistory/9902864B5A4CC9271B"
+        width="400px" height="200px" alt="My Image">
+
+      </div>
+
+    </div>
+    <input id="main" type="button" value="처음으로" onclick="location.href='index.html'">
+    <input id="before" type="button" value="뒤로" onclick="location.href='index.html'">
+    <input id="next" type="button" value="앞으로" onclick="location.href='2.html'">
+  </body>
+</html>

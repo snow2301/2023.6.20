@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title> MY WEB </title>
+    <meta charset="utf-8">
+    <style>
+      h1{
+        font-size: 45px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        margin: 0px;
+        padding: 20px;
+      }
+      a{
+        color: black;
+        text-decoration: none;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 300px 1fr 1fr
+      }
+      #grid details{
+        width: 200px;
+        margin-left: 40px;
+        margin-top: 40px;
+        padding: 20px;
+      }
+      #grid summary{
+        font-size: 20px;
+      }
+      #article{
+        border-left: 1px solid gray;
+        padding-left: 25px;
+        text-align: center;
+      }
+      #side{
+        text-align: center;
+      }
+      #next{
+        position: absolute;
+        top: 5%;
+        left: 92%;
+      }
+      #Image1{
+        position: absolute;
+        top: 60%;
+        left: 60%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>메인</h1>
+
+    <div id="grid">
+      <details>
+        <summary> 목차 </summary>
+          <ul>
+            <li><a href="1.html">백엔드개발자</a></li><br><br>
+            <li><a href="2.html">서버와 클라이언트</a></li><br><br>
+            <li><a href="3.html">데이터베이스</a></li><br><br>
+            <li><a href="4.html">아이피와 포트</a></li><br><br>
+            <li><a href="5.html">라이브러리와 프레임워크</a></li>
+          </ul>
+      </details>
+
+      <div id="article">
+        <h2>웹페이지를 만든 이유</h2>
+        <p>최근에 사람들이 기계에 의존하는 경향을 많이 보이고</p>
+        <p>시간이 지나고 세상이 바뀔수록 기계에 의존할 것이며</p>
+        <p>그로 인해 많은 변화가 생겼고 앞으로 더 생길것이기 때문에</p>
+        <p>변화를 대비하고 변화후에도 세상을 살아가는데 도움이되도록</p>
+        <p>간단한 지식을 알리기 위해 웹페이지를 만들었다</p>
+        <br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br>
+
+      </div>
+
+      <div id="side">
+        <h2>웹페이지 효과</h2>
+        <p>사람들에게 백엔드 개발자라는 직업이 무슨일을 하고</p>
+        <p>그러한 직업을 얻기위해 알아야하는 용어들과 설명을 알려주고</p>
+        <p>나도 찾아보면서 관련지식을 더 알게 죄면 좋겠다</p>
+
+      </div>
+
+    </div>
+    <input id="next" type="button" value="앞으로" onclick="location.href='1.html'">
+    <img id="Image1"src="https://image.samsungsds.com/kr/insights/__icsFiles/afieldfile/2021/10/08/data_centric_ai_thumbnail.jpg?queryString=20230412031731"
+    width="500px" height="300px" alt="My Image">
+  </body>
+</html>

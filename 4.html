@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title> MY WEB </title>
+    <meta charset="utf-8">
+    <style>
+      h1{
+        font-size: 45px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        margin: 0px;
+        padding: 20px;
+      }
+      a{
+        color: black;
+        text-decoration: none;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 300px 1fr 1fr
+      }
+      #grid details{
+        width: 200px;
+        margin-left: 40px;
+        margin-top: 40px;
+        padding: 20px;
+      }
+      #grid summary{
+        font-size: 20px;
+      }
+      #article{
+        border-left: 1px solid gray;
+        padding-left: 25px;
+      }
+      #main{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+      }
+      #before{
+        position: absolute;
+        top: 5%;
+        left: 85%;
+      }
+      #next{
+        position: absolute;
+        top: 5%;
+        left: 92%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>아이피와 포트</h1>
+
+    <div id="grid">
+
+      <ol>
+        <li><a href="1.html">백엔드개발자</a></li><br><br>
+        <li><a href="2.html">서버와 클라이언트</a></li><br><br>
+        <li><a href="3.html">데이터베이스</a></li><br><br>
+        <li><a href="3.html">아이피와 포트</a></li><br><br>
+        <li><a href="3.html">라이브러리와 프레임워크</a></li>
+      </ol>
+
+      <div id="article">
+        <h2>아이피</h2>
+        <p>인터넷 프로토콜(Internet Protocol)의 약자로,</p>
+        <p>인터넷이 통하는 네트워크에서 어떤 정보를 수신하고 송신하는</p>
+        <p>통신에 대한 규약을 의미한다. 스마트폰 이나 전자기기, 컴퓨터의 경우</p>
+        <p>사용하는 운영체제도 서로 다르고, 프로그램의 경우</p>
+        <p>아예 구현된 언어가 다르기 때문에 네트워크에서 이들이</p>
+        <p>통신할 수 있도록 하려면 공통된 통신 규약(프로토콜)이 필요하다.</p>
+        <br>
+        <h2>포트</h2>
+        <p>인터넷 프로토콜 스위트에서 포트(port)는 운영체제 통신의 종단점이다.</p>
+        <p>이 용어는 하드웨어 장치에도 사용되지만, 소프트웨어에서는</p>
+        <p>네트워크 서비스나 특정 프로세스를 식별하는 논리 단위이다.</p>
+        <p>컴퓨터가 각종 신호를 받아들이고 내보낼 수 있도록</p>
+        <p>연결할 수 있는 연결단자를 말한다.</p>
+        <p>IP 내에서 프로세스 구분을 하기 위해서 사용한다.</p>
+        <br><br><br>
+
+      </div>
+
+      <div id="side">
+        <br><br><br>
+        <img id="Image1"src="https://t1.daumcdn.net/cfile/tistory/9902EF3E5C986E9706"
+        width="500px" height="400px" alt="My Image">
+      </div>
+
+    </div>
+    <input id="main" type="button" value="처음으로" onclick="location.href='index.html'">
+    <input id="before" type="button" value="뒤로" onclick="location.href='3.html'">
+    <input id="next" type="button" value="앞으로" onclick="location.href='5.html'">
+  </body>
+</html>

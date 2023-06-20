@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title> MY WEB </title>
+    <meta charset="utf-8">
+    <style>
+      h1{
+        font-size: 45px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        margin: 0px;
+        padding: 20px;
+      }
+      a{
+        color: black;
+        text-decoration: none;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 300px 1fr 1fr
+      }
+      #grid details{
+        width: 200px;
+        margin-left: 40px;
+        margin-top: 40px;
+        padding: 20px;
+      }
+      #grid summary{
+        font-size: 20px;
+      }
+      #article{
+        border-left: 1px solid gray;
+        padding-left: 25px;
+        text-align: center;
+      }
+      #side{
+        text-align: center;
+      }
+      #main{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+      }
+      #before{
+        position: absolute;
+        top: 5%;
+        left: 85%;
+      }
+      #Image1{
+        position: absolute;
+        top: 55%;
+        left: 35%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>라이브러리와 프레임워크</h1>
+
+    <div id="grid">
+
+      <ol>
+        <li><a href="1.html">백엔드개발자</a></li><br><br>
+        <li><a href="2.html">서버와 클라이언트</a></li><br><br>
+        <li><a href="3.html">데이터베이스</a></li><br><br>
+        <li><a href="3.html">아이피와 포트</a></li><br><br>
+        <li><a href="3.html">라이브러리와 프레임워크</a></li>
+      </ol>
+
+      <div id="article">
+        <h2>라이브러리</h2>
+        <p>라이브러리는 주로 소프트웨어를 개발할 때 컴퓨터 프로그램이</p>
+        <p>사용하는 비휘발성 자원의 모임이다. 여기에는 구성 데이터, 문서,</p>
+        <p>도움말 자료, 메시지 틀, 미리 작성된 코드, 서브루틴(함수),</p>
+        <p>클래스, 값, 자료형 사양을 포함할 수 있다.</p>
+        <br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br>
+
+
+      </div>
+
+      <div id="side">
+        <h2>프레임워크</h2>
+        <p>컴퓨터 프로그래밍에서 소프트웨어 프레임워크는 복잡한 문제를</p>
+        <p>해결하거나 서술하는 데 사용되는 기본 개념 구조이다.</p>
+        <p>간단히 뼈대, 골조, 프레임워크라고도 한다.</p>
+        <p>이렇게 매우 폭넓은 정의는 이 용어를 버즈워드로서,</p>
+        <p>특히 소프트웨어 환경에서 사용할 수 있게 만들어 준다.</p>
+
+      </div>
+
+    </div>
+    <img id="Image1"src="https://blog.kakaocdn.net/dn/cxhwUO/btqDiE7jcdg/gvcYbBkP9mGtmTWAMgIhq0/img.png"
+    width="600px" height="300px" alt="My Image">
+
+    <input id="main" type="button" value="처음으로" onclick="location.href='index.html'">
+    <input id="before" type="button" value="뒤로" onclick="location.href='4.html'">
+  </body>
+</html>
